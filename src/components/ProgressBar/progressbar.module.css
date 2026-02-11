@@ -1,0 +1,24 @@
+.wrapper {
+  width: 100%;
+  background-color: var(--neutral-darker);
+  border-radius: 8px;
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filled {
+  background-color: var(--primary-highlight);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--neutral-darker);
+  transition: width 0.3s ease;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 500;
+  border-radius: 8px;
+}
