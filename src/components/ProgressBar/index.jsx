@@ -1,10 +1,24 @@
-import styles from "./progressbar.module.css";
-
 export const ProgressBar = ({ percent }) => {
-  return (
-    <div className={styles.wrapper}>
-      <div className={styles.filled} style={{ width: `${percent}%` }}></div>
-      {percent}%
-    </div>
-  );
-};
+    return (
+        <div className="bg-neutral-darker rounded-lg overflow-hidden w-full h-10">
+            <div 
+                className="
+                    bg-primary-highlight
+                    h-full
+                    flex
+                    justify-center
+                    items-center
+                    text-neutral-darker
+                    text-base
+                    leading-[120%]
+                    transition-all
+                    duration-300
+                    ease-in-out
+                "
+                style={{ width: `${percent}%` }}
+            >
+                {percent}%
+            </div>
+        </div>
+    )
+}
