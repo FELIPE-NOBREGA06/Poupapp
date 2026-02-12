@@ -4,7 +4,7 @@ Um aplicativo de gestão financeira pessoal desenvolvido com React e Vite. Acomp
 
 ## Preview
 
-![PoupApp Screenshot](./screenshot.png)
+![PoupApp Screenshot](./image.png)
 
 ## Funcionalidades
 
@@ -34,8 +34,6 @@ Para iniciar o servidor de desenvolvimento:
 ```bash
 npm run dev
 ```
-
-O aplicativo estará disponível em `http://localhost:5173`
 
 ## Build
 
